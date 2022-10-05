@@ -8,6 +8,8 @@ import outils.ExerciceRunner;
 import outils.Question;
 
 /** Ne modifiez ni les noms des classes, ni les noms des méthodes.
+ * Utilisez Resultat.log pour afficher les résultats
+ * 
  * @author DIGINAMIC
  *
  */
@@ -21,27 +23,29 @@ public class Ex02_AffichagePartiel {
 	@Question(numero=1)
 	public void affichageValeursSup3() {
 		
-		//TODO Afficher avec Resultat.log les valeurs du tableau supérieures ou égales à 3
+		//TODO En utilisant une boucle et un if, LOGUER avec Resultat.log 
+		// les valeurs du tableau supérieures ou égales à 3
 	}
 	
 	@Test
 	@Question(numero=2)
 	public void affichageValeursPaires() {
 		
-		//TODO Afficher avec Resultat.log les valeurs paires du tableau (0 est pair)
+		//TODO LOGUER avec Resultat.log les valeurs paires du tableau (0 sera considéré comme pair)
 	}
 	
 	@Test
 	@Question(numero=3)
 	public void affichageIndexPairs() {
 		
-		//TODO Afficher avec Resultat.log les valeurs correspondant aux index pairs du tableau (0 est pair)
+		//TODO LOGUER avec Resultat.log les valeurs correspondant aux index pairs du tableau 
+		// (0 sera considéré comme pair)
 	}
 	
 	@Test
 	@Question(numero=4)
 	public void affichageValeursImpaires() {
 		
-		//TODO Afficher avec Resultat.log les valeurs impaires du tableau (0 doit être exclu)
+		//TODO LOGUER avec Resultat.log les valeurs impaires du tableau (0 doit être exclu)
 	}
 }

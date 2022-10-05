@@ -9,6 +9,7 @@ import outils.Question;
 
 /**
  * Ne modifiez ni les noms des classes, ni les noms des méthodes.
+ * Utilisez Resultat.log pour afficher les résultats
  * 
  * @author DIGINAMIC
  *
@@ -27,8 +28,8 @@ public class Ex10_ComparaisonTableau {
 	@Question(numero = 1)
 	public void calculerElementsCommuns() {
 
-		// TODO Afficher le nombre de valeurs communes aux 2 tableaux.
-		// On peut déjà voir que les valeurs 3 et 8 sont communes aux 2 tableaux, mais
+		// TODO LOGUER le nombre de valeurs communes aux 2 tableaux.
+		// Exemple : On peut déjà voir que les valeurs 3 et 8 sont communes aux 2 tableaux, mais
 		// Combien y en a t'il au total ?
 	}
 }

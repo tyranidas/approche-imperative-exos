@@ -9,6 +9,7 @@ import outils.Question;
 
 /**
  * Ne modifiez ni les noms des classes, ni les noms des méthodes.
+ * Utilisez Resultat.log pour afficher les résultats
  * 
  * @author DIGINAMIC
  *
@@ -31,11 +32,6 @@ public class Ex09_SommeDeTableaux {
 		// dont chaque case d’index i contient la somme arithmétique des cases d’index i
 		// des tableaux 1 et 2.
 		// Exemple : somme[i]=tab1[i]+tab2[i]
-		
-		int[] somme = new int[tab1.length];
-		for (int i=0; i<tab1.length; i++) {
-			somme[i]=tab1[i]+tab2[i];
-			System.out.println(somme[i]);
-		}
+	
 	}
 }

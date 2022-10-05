@@ -8,6 +8,8 @@ import outils.ExerciceRunner;
 import outils.Question;
 
 /** Ne modifiez ni les noms des classes, ni les noms des méthodes.
+ * Utilisez Resultat.log pour afficher les résultats
+ * 
  * @author DIGINAMIC
  *
  */
@@ -24,14 +26,14 @@ public class Ex08_CalculMoyenne {
 	@Question(numero=1)
 	public void calculMoyenne() {
 		
-		//TODO Calculez et affichez la moyenne des valeurs du tableau (la moyenne doit être une valeur décimale).
+		//TODO Calculez et LOGUEZ la moyenne des valeurs du tableau (la moyenne doit être une valeur décimale).
 	}
 	
 	@Test
 	@Question(numero=2)
 	public void calculMoyenneValeursPositives() {
 		
-		//TODO Calculez et affichez la moyenne des valeurs POSITIVES du tableau
+		//TODO Calculez et LOGUEZ la moyenne des valeurs POSITIVES du tableau
 	}
 
 }

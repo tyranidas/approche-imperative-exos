@@ -9,6 +9,7 @@ import outils.Question;
 
 /** Ne modifiez ni les noms des classes, ni les noms des méthodes.
  * Utilisez Resultat.log pour afficher les résultats
+ * 
  * @author DIGINAMIC
  *
  */
@@ -22,10 +23,10 @@ public class Ex05_InversionContenu {
 	@Question(numero=1)
 	public void affichageTableauArrayCopy() {
 		
-		// TODO Créez un tableau nommé arrayCopy et qui contient les mêmes nombres
+		// TODO Créer un tableau nommé arrayCopy et qui contient les mêmes nombres
 		// que dans le tableau array mais dans l'ordre inverse. 
-		// Pour être pus précis, arrayCopy commence par les nombres suivants : -4, 14, 0, etc..
+		// Pour être plus précis, arrayCopy commence par les nombres suivants : -4, 14, 0, etc..
 		
-		// TODO AFfichez le contenu de ce tableau
+		// TODO LOGUER le contenu de ce tableau arrayCopy
 	}
 }

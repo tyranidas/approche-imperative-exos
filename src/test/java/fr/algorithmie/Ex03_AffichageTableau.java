@@ -9,6 +9,7 @@ import outils.Question;
 
 /** Ne modifiez ni les noms des classes, ni les noms des méthodes.
  * Utilisez Resultat.log pour afficher les résultats
+ * 
  * @author DIGINAMIC
  *
  */
@@ -22,13 +23,13 @@ public class Ex03_AffichageTableau {
 	@Question(numero=1)
 	public void affichageTableau() {
 		
-		//TODO Afficher les éléments du tableau
+		//TODO LOGUER les éléments du tableau grâce à une boucle
 	}
 	
 	@Test
 	@Question(numero=2)
 	public void affichageTableauOrdreInverse() {
 		
-		//TODO Afficher les éléments du tableau dans l'ordre inverse
+		//TODO LOGUER les éléments du tableau dans l'ordre inverse
 	}
 }

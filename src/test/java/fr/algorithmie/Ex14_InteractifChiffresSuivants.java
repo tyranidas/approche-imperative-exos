@@ -38,11 +38,9 @@ public class Ex14_InteractifChiffresSuivants {
 		int nb = scanner.nextInt();
 		
 		// TODO Ecrire un algo qui demande un nombre à l’utilisateur 
-		// puis qui affiche les 10 nombres suivants. 
-		// Par exemple si l’utilisateur saisit 5, 
-		// le programme affiche : 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.
+		// puis qui LOGUE les 10 nombres suivants. 
+		// Par exemple si l’utilisateur saisit 5, le programme LOGUE 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.
 		
-		// Affichage d'un message pour l'utilisateur
 		
 		scanner.close();
 	}

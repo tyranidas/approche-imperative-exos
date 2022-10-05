@@ -9,6 +9,7 @@ import outils.Question;
 
 /** Ne modifiez ni les noms des classes, ni les noms des méthodes.
  * Utilisez Resultat.log pour afficher les résultats
+ * 
  * @author DIGINAMIC
  *
  */
@@ -25,7 +26,7 @@ public class Ex06_RechercheMax {
 	@Question(numero=1)
 	public void rechercherMax() {
 		
-		//TODO Grâce à un algorithme, recherchez le maximum du tableau et affichez le.
+		//TODO Grâce à un algorithme, recherchez le maximum du tableau et LOGUEZ le.
 		
 	}
 

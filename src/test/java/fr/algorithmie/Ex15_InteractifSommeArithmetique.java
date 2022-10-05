@@ -1,6 +1,5 @@
 package fr.algorithmie;
 
-import java.util.Random;
 import java.util.Scanner;
 
 import org.junit.Test;
@@ -18,8 +17,8 @@ import outils.Resultat;
  *
  */
 @RunWith(ExerciceRunner.class)
-@Exercice(nom="InteractifPlusGrand")
-public class Ex19_InteractifPlusMoins {
+@Exercice(nom="InteractifSommeArithmetique")
+public class Ex15_InteractifSommeArithmetique {
 	
 	/**
 	 * Ne pas modifier les informations portées par l'annotation. 
@@ -30,12 +29,12 @@ public class Ex19_InteractifPlusMoins {
 		
 		Scanner scanner = new Scanner(System.in) ;
 		
-		// TODO Demander à l'utilisateur de saisir 10 nombres entiers
-		// TODO Affichez chaque nombre saisi avec Resultat.log
-		// TODO Enfin affichez avec Resultat.log le max des 10 nombres
+		// TODO Demandez un nombre à l'utilisateur puis LOGUEZ ce nombre 
+		// avec Resultat.log
 		
-		int nb = new Random(100L).nextInt();
-	
+		
+		// TODO LOGUEZ avec Resultat.log la somme de 1 à ce nombre inclus
+		
 		
 		scanner.close();
 	}

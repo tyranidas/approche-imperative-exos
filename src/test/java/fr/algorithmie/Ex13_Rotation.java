@@ -23,7 +23,6 @@ public class Ex13_Rotation {
 
 	/**
 	 * Ne pas modifier les informations portées par l'annotation. 
-	 * AU TOTAL : 4 résultats à afficher avec System.out.println(...)
 	 */
 	@Test
 	@Question(numero = 1)

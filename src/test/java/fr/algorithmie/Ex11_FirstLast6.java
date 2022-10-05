@@ -9,7 +9,8 @@ import outils.Question;
 
 /**
  * Ne modifiez ni les noms des classes, ni les noms des méthodes.
- * 
+ * Utilisez Resultat.log pour afficher les résultats
+ *  
  * @author DIGINAMIC
  *
  */
@@ -26,19 +27,17 @@ public class Ex11_FirstLast6 {
 
 	/**
 	 * Ne pas modifier les informations portées par l'annotation. AU TOTAL : 6
-	 * résultats à afficher avec System.out.println(...)
 	 */
 	@Test
 	@Question(numero = 1)
 	public void afficherAlgo() {
 
-		// TODO Mettez en place un test qui fonctionne de la sorte :
-		// - Le test retourne true si le tableau a au moins 1 élément et si le premier
-		// élément ou le dernier élément vaut 6.
-		// - Le test retourne false sinon.
+		// TODO Calculez une valeur booléenne qui contrôle le tableau de la sorte :
+		//  o elle vaut true si le tableau a au moins 1 élément et si le premier élément ou le dernier élément vaut 6.
+		//  o elle vaut false dans les autres cas
 
-		// TODO Affichez les résultats de votre algorithme pour les 6 tableaux tab1,
-		// tab2, ..., tab6
+
+		// TODO LOGUEZ la valeur obtenue pour chacun des 6 tableaux tab1 à tab6
 
 	}
 

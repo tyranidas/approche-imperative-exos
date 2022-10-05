@@ -8,13 +8,14 @@ import outils.ExerciceRunner;
 import outils.Question;
 
 /**
- * Ne modifiez ni les noms des classes, ni les noms des méthodes.
+ * Ne modifiez ni les noms des classes, ni les noms des méthodes. Utilisez
+ * Resultat.log pour afficher les résultats
  * 
  * @author DIGINAMIC
  *
  */
 @RunWith(ExerciceRunner.class)
-@Exercice(nom="FirstLast")
+@Exercice(nom = "FirstLast")
 public class Ex12_FirstLast {
 
 	int[] tab1 = {};
@@ -23,20 +24,18 @@ public class Ex12_FirstLast {
 	int[] tab4 = { 1, 6, 1 };
 
 	/**
-	 * Ne pas modifier les informations portées par l'annotation. 
-	 * AU TOTAL : 4 résultats à afficher avec System.out.println(...)
+	 * Ne pas modifier les informations portées par l'annotation.
 	 */
 	@Test
 	@Question(numero = 1)
 	public void afficherAlgo() {
 
-		// TODO Mettez en place un test qui contrôle un tableau de la sorte :
-		// - Le contrôle retourne true si le tableau a au moins 1 élément ET si 
-		// le premier et le dernier élément du tableau ont la même valeur
-		// - Le test retourne false sinon.
+		// TODO Calculez une valeur booléenne qui contrôle le tableau de la sorte :
+		// o elle vaut true si le tableau est de longueur supérieure ou égale à 1 
+		//   et que le premier et le dernier élément du tableau ont la même valeur
+		// o elle vaut false dans les autres cas
 
-		// TODO Affichez les résultats de votre algorithme pour les 6 tableaux tab1,
-		// tab2, tab3 et tab4
+		// TODO LOGUEZ la valeur obtenue pour chacun des tableaux tab1 à tab4
 
 	}
 
