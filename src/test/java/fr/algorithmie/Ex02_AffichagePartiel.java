@@ -6,6 +6,7 @@ import org.junit.runner.RunWith;
 import outils.Exercice;
 import outils.ExerciceRunner;
 import outils.Question;
+import outils.Resultat;
 
 /** Ne modifiez ni les noms des classes, ni les noms des méthodes.
  * Utilisez Resultat.log pour afficher les résultats
@@ -46,6 +47,7 @@ public class Ex02_AffichagePartiel {
 	@Question(numero=4)
 	public void affichageValeursImpaires() {
 		
-		//TODO LOGUER avec Resultat.log les valeurs impaires du tableau (0 doit être exclu)
+		//TODO LOGUER avec Resultat.log les valeurs impaires positives du tableau (0 doit être exclu)
+		
 	}
 }
