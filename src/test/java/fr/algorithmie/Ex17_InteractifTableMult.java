@@ -34,21 +34,21 @@ public class Ex17_InteractifTableMult {
 		// entre 1 et 10 l'application continue à demander un nombre à l'utilisateur.
 		System.out.println("Veuillez saisir un nombre entre 1 et 10 : ");
 		int nb = scanner.nextInt();
-		if (nb < 1 || nb > 10)
+		while (nb < 1 || nb > 10)
 		{
 			System.out.println("Veuillez saisir un nombre entre 1 et 10 : ");
 			nb = scanner.nextInt();
 		}
 		// Si ce nombre est compris entre 1 et 10, l'application affiche la table de multiplication
 		// de ce nombre sous la forme : 3*1=3, 3*2=6, etc... jusqu'à 3*2=10
-		else {
+		
 			for ( int i = 1 ; i <= 10; i++ )
 			{
 				
 				Resultat.log(nb+"*"+i+"="+nb*i);
 				scanner.close();
 			}
-		}
+		
 		
 		
 	}
