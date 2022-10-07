@@ -28,13 +28,34 @@ public class Ex18_InteractifPlusGrand {
 	public void interactif() {
 		
 		Scanner scanner = new Scanner(System.in) ;
-		
+		int c = 0;
+		int[] array = new int[10];
 		// TODO Demander à l'utilisateur de saisir 10 nombres entiers
-		// TODO Affichez chaque nombre saisi avec Resultat.log
-		// TODO Enfin affichez avec Resultat.log le max des 10 nombres
-	
+		while (c <10 )
+		{
+		System.out.println("Veuillez saisir un nombre");
+		int nb = scanner.nextInt();
 		
+		// TODO Affichez chaque nombre saisi avec Resultat.log
+		array[c] = nb;
+		Resultat.log(array[c]);	
+		c++;
+
+		// TODO Enfin affichez avec Resultat.log le max des 10 nombres
+		
+		}
+		int a = 0;
+		for (int i = 0; i < array.length; i++)
+		{
+			if (a < array[i])
+			{
+				a = array[i];
+			}
+			
+		}
+		Resultat.log(a);
 		scanner.close();
+		
 	}
 
 }
